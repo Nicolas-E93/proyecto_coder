@@ -42,6 +42,11 @@ a {
     color: white;
 }
 
+.img_chess {
+    width: 50%;
+    margin-top: 30px;
+}
+
 .about-header-container {
     display: flex;
     flex-direction: row-reverse;
@@ -82,6 +87,7 @@ div header {
     margin-left:200px ;
 }
 
+
 .ourTeamHeader {
     display: flex;
     text-align: left;
@@ -89,9 +95,13 @@ div header {
     background: #9D2096;
     color: white;
     box-sizing: border-box;
-
 }
 
+.box_side {
+padding: 30px;
+text-align: justify;
+
+}
 .ourTeamHeader-titles {
     margin-left: 30px;
     margin-top: 40px;
@@ -157,6 +167,7 @@ main ul {
     text-align: justify;
     width: 80%;
     padding: 20px;
+    margin-left: 50px;
 }
 
 .about {
@@ -205,13 +216,12 @@ main ul {
 }
 
 .grid_container_members {
+    margin-top: 90px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 20px 20px;
     margin-bottom: 30px;
-
-
 }
 
 .tall_person {
@@ -405,7 +415,7 @@ form {
     left: 282px;
 }
 
-.div_container {
+.div_container2 {
     display: grid;
     grid-template-areas:
         "nav2 nav2 nav2"
@@ -442,6 +452,15 @@ form {
     .about-img {
         display: none;
     }
+
+    .img-team {
+        display: none;
+    }
+
+    .box_side {
+        padding:10px
+    }
+
 }
 
 /* Mobile */
@@ -463,7 +482,7 @@ form {
         flex-direction: column;
     }
 
-    .div_container {
+    .div_container2 {
         
         grid-template-areas:
             "nav2"
@@ -473,6 +492,10 @@ form {
             "footer2";
         grid-template-columns: auto ;
         grid-template-rows: 5% 11%;
+    }
+    
+    .section2 {
+        margin: 0;
     }
 
     .sub_work {
