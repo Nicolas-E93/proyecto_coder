@@ -116,20 +116,6 @@ text-align: justify;
     margin-top: -16px;
 }
 
-.logo_site {
-    width: 3%;
-    position: absolute;
-    left: 3%;
-}
-
-.logo_site2 {
-    width: 3%;
-    position: absolute;
-    left: 3%;
-    top: -1px;
-
-}
-
 .container_videos {
     margin-bottom: 100px;
     display: flex;
