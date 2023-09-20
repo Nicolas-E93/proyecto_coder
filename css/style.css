@@ -19,23 +19,25 @@ nav {
 }
 
 .container_nav {
+    margin-left: 20px;
+    padding: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
-
+    justify-content: end;
+    margin-right: 10px;
 }
 
 nav ul {
     text-align: end;
     font-family: 'Times New Roman', Times, serif;
     list-style-type: none;
-
 }
 
 nav ul li {
     margin: 10px;
 }
+
 
 a {
     text-decoration: none;
@@ -67,8 +69,7 @@ header h1 {
     background-color: #9D2096;
     color: white;
     padding: 20px;
-    font-size: 60px;
-
+    font-size: 60px;        
 }
 
 div header {
@@ -102,14 +103,31 @@ padding: 30px;
 text-align: justify;
 
 }
+
 .ourTeamHeader-titles {
     margin-left: 30px;
     margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
+
 .logo {
     background-color: #9D2096;
+    margin-top: -16px;
+}
+
+.logo_site {
+    width: 3%;
+    position: absolute;
+    left: 3%;
+}
+
+.logo_site2 {
+    width: 3%;
+    position: absolute;
+    left: 3%;
+    top: -1px;
+
 }
 
 .container_videos {
@@ -469,6 +487,10 @@ form {
     .video {
         height: 250px;
         width: 350px;
+    }
+
+    .img_chess {
+        display: none;
     }
 
     .container_footer {
