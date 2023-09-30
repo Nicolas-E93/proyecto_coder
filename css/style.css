@@ -8,6 +8,17 @@ html {
   width: 100%;
 }
 
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .button, .button_2 {
   background-color: cadetblue;
   color: white;
@@ -34,6 +45,34 @@ html {
   margin-top: 20px;
   position: relative;
   top: -30px;
+}
+
+main img {
+  width: 40%;
+  position: relative;
+  top: -8px;
+}
+
+div header img {
+  width: 15%;
+  margin-left: 30px;
+}
+
+body header div img {
+  width: 30%;
+  position: relative;
+  margin-left: 200px;
+}
+
+body main section form img {
+  position: absolute;
+  width: 300px;
+  left: 136px;
+}
+
+section h3 div form {
+  width: 100%;
+  margin-top: 50px;
 }
 
 header nav {
@@ -145,6 +184,9 @@ body footer h5 {
   font-size: medium;
   margin: 10px;
 }
+body footer ul {
+  list-style-type: none;
+}
 
 h5 {
   font-size: medium;
@@ -153,6 +195,128 @@ h5 {
 }
 h5 ul {
   list-style-type: none;
+}
+
+body main section div {
+  text-align: justify;
+  width: 80%;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+body main section .container_videos {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: wrap;
+}
+
+body main section p {
+  width: 80%;
+  height: auto;
+  color: black;
+  font-size: 100%;
+  text-align: justify;
+  margin: 30px;
+}
+
+body main section form .select_rating {
+  color: black;
+  font-size: 23px;
+  margin-top: 20px;
+  position: relative;
+  top: -30px;
+  left: 100px;
+  text-align: center;
+}
+
+.div_container2 {
+  display: grid;
+  grid-template-areas: "nav2 nav2 nav2" "aside2 header2 header2" "aside2 section2 section2" "footer2 footer2 footer2";
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 40px 100px 1fr 150px;
+}
+.div_container2 .header2 {
+  grid-area: header2;
+  background-color: #9D2096;
+  color: white;
+  text-align: left;
+  font-size: 10%;
+  height: 150%;
+  width: 100%;
+}
+.div_container2 .header2 div h2 {
+  position: absolute;
+  top: 129px;
+  left: 282px;
+}
+
+.nav2 {
+  grid-area: nav2;
+  background-color: black;
+}
+
+.section2 {
+  grid-area: section2;
+  margin-top: 50px;
+}
+
+.aside2 {
+  grid-area: aside2;
+  background-color: #FFD859;
+}
+
+.footer2 {
+  grid-area: footer2;
+  background-color: #9D2096;
+  display: flex;
+  justify-content: center;
+  margin: -0.01%;
+  padding: 10px;
+}
+
+.form_to_fill {
+  width: 100%;
+}
+
+.sub_work {
+  position: absolute;
+  top: 129px;
+  left: 282px;
+}
+
+body section {
+  grid-area: section2;
+  margin-top: 50px;
+}
+body section {
+  margin: 30px;
+}
+body section .grid_container_members {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px 20px;
+  margin-bottom: 30px;
+}
+body section .grid_container_members div {
+  text-align: justify;
+  background-color: #FFD859;
+  color: black;
+  padding: 20px;
+  border: 1px;
+  border-radius: 40px;
+}
+
+body section h3 {
+  font-size: x-large;
+  margin-bottom: 68px;
+  margin-top: 80px;
+}
+body section h3 div form {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

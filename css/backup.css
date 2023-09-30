@@ -175,16 +175,13 @@ main ul {
     margin-left: 50px;
 }
 
-.about {
-    margin: 30px;
-}
-
 .p_about {
     width: 80%;
     height: auto;
     color: black;
     font-size: 100%;
     text-align: justify;
+    margin: 30px;
 }
 
 .sub_text_about {

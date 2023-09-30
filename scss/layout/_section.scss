@@ -1,0 +1,65 @@
+//index//
+
+body {
+    main {
+        section {
+            div {
+                text-align: justify;
+                width: 80%;
+                padding: 20px;
+                margin-left: 50px;
+            }
+        }
+    }
+}
+
+body {
+    main {
+        section {
+            .container_videos {
+                margin-bottom: 100px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                flex: wrap;
+            }
+        }
+    }
+}
+
+//about-us//
+
+body {
+    main {
+        section {
+            p {
+                width: 80%;
+                height: auto;
+                color: black;
+                font-size: 100%;
+                text-align: justify;
+                margin: 30px;
+            }
+        }
+    }
+}
+
+//contact-us//
+
+body {
+    main {
+        section {
+            form {
+                .select_rating {
+                    color: black;
+                    font-size: 23px;
+                    margin-top: 20px;
+                    position: relative;
+                    top: -30px;
+                    left:100px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

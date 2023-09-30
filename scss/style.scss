@@ -5,17 +5,19 @@
 //base//
 @import "./base/_reset.scss";
 
-//buttons//
+//components//
 @import "./components/_buttons.scss";
-
-//dropdowns//
 @import "./components/_dropdown.scss";
+@import "./components/_img.scss";
+@import "./components/_forms.scss";
 
-//navbar//
+//layout//
 @import "./layout/_nav.scss";
 
-//header//
+//layout//
 @import "./layout/_header.scss";
+@import "./layout/_footer.scss";
+@import "./layout/_section.scss";
 
-//footer//
-@import "./layout/_footer.scss"
+//pages//
+@import "./pages/_pages-with-grid.scss"

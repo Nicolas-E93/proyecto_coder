@@ -1,0 +1,114 @@
+.div_container2 {
+    display: grid;
+    grid-template-areas:
+        "nav2 nav2 nav2"
+        "aside2 header2 header2"
+        "aside2 section2 section2"
+        "footer2 footer2 footer2"
+    ;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 40px 100px 1fr 150px;
+
+    .header2 {
+        grid-area: header2;
+        background-color: #9D2096;
+        color: white;
+        text-align: left;
+        font-size: 10%;
+        height: 150%;
+        width: 100%;
+
+        div {
+            h2 {
+                position: absolute;
+                top: 129px;
+                left: 282px;
+            }
+        }
+    }
+}
+
+
+
+.nav2 {
+    grid-area: nav2;
+    background-color: black;
+}
+
+.section2 {
+    grid-area: section2;
+    margin-top: 50px;
+}
+
+.aside2 {
+    grid-area: aside2;
+    background-color: #FFD859;
+}
+
+.footer2 {
+    grid-area: footer2;
+    background-color: #9D2096;
+    display: flex;
+    justify-content: center;
+    margin: -0.01%;
+    padding: 10px;
+}
+
+.form_to_fill {
+    width: 100%;
+}
+
+.sub_work {
+    position: absolute;
+    top: 129px;
+    left: 282px;
+}
+
+//our-team//
+
+body {
+    section {
+        grid-area: section2;
+        margin-top: 50px;
+    }
+
+    section {
+        margin: 30px;
+
+        .grid_container_members {
+            margin-top: 90px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px 20px;
+            margin-bottom: 30px;
+
+            div {
+                text-align: justify;
+                background-color: #FFD859;
+                color: black;
+                padding: 20px;
+                border: 1px;
+                border-radius: 40px;
+            }
+        }
+    }
+}
+
+//work-with-us//
+
+body {
+    section {
+        h3 {
+            font-size: x-large;
+            margin-bottom: 68px;
+            margin-top: 80px;
+
+            div {
+                form {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
