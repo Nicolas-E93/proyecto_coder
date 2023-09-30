@@ -1,0 +1,35 @@
+body {
+    footer {
+        background-color: #9D2096;
+        color: whitesmoke;
+        list-style-type: none;
+        padding: 10px 5px;
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: auto;
+        display: flex;
+        direction: row;
+        justify-content: center;
+
+        .pricing {
+            margin-left: 100px;
+            margin-right: 100px
+        }
+
+        h5 {
+            font-size: medium;
+            margin: 10px;
+        }
+    }
+}
+
+
+h5 {
+    font-size: medium;
+    margin: 10px;
+    font-weight: lighter;
+
+    ul {
+        list-style-type: none;
+    }
+}

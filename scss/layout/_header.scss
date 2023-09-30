@@ -1,0 +1,47 @@
+//index, contact-us//
+
+h1 {
+    background-color: #9D2096;
+    color: white;
+    padding: 20px;
+    font-size: 60px;
+} 
+
+//about-us//
+
+div header {
+    text-align: left;
+    font-size: xx-large;
+    background: #9D2096;
+    color: white;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 30px;
+}
+
+//our-team work-with-us//
+
+body {
+    header {
+        .ourTeamHeader {
+            display: flex;
+            text-align: left;
+            font-size: xx-large;
+            background: #9D2096;
+            color: white;
+            box-sizing: border-box;
+
+            .ourTeamHeader-titles {
+                margin-left: 30px;
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    }
+}
+
+
+
+

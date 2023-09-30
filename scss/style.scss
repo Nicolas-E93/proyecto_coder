@@ -1,23 +1,21 @@
-// variables //
 
-$main-color:#9D2096;
-$button-color:cadetblue;
-$aside-color:#FFD859;
-$p-color:black;
+//variable//
+@import "./variables/variables.scss";
 
-// General styles //
+//base//
+@import "./base/_reset.scss";
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'EB Garamond', serif;
-}
+//buttons//
+@import "./components/_buttons.scss";
 
-html {
-    width: 100%;
-}
+//dropdowns//
+@import "./components/_dropdown.scss";
 
+//navbar//
+@import "./layout/_nav.scss";
 
+//header//
+@import "./layout/_header.scss";
 
-
-
+//footer//
+@import "./layout/_footer.scss"

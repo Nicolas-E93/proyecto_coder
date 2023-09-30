@@ -1,0 +1,22 @@
+.button {
+    background-color: cadetblue;
+    color: white;
+    width: 80px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    margin-bottom: 30px;
+   
+
+    &:hover {
+        background-color: rgb(83, 175, 175);
+    }
+}
+
+.button_2 {
+    @extend .button;
+    margin: 40px;
+    box-sizing: border-box;
+}

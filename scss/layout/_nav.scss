@@ -1,0 +1,74 @@
+// nav -> home, contact-us //
+header {
+    nav {
+        background-color: #000000;
+        width: 100%;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        ul {
+            text-align: end;
+            font-family: 'Times New Roman', Times, serif;
+            list-style-type: none;
+
+            li {
+                margin: 10px;
+            }
+
+        }
+
+        .container_nav {
+            margin-left: 20px;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: end;
+            margin-right: 10px;
+        }
+    }
+}
+
+// nav -> about-us, our-team, work-with-us //
+
+body {
+    nav {
+        background-color: #000000;
+        width: 100%;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        ul {
+            text-align: end;
+            font-family: 'Times New Roman', Times, serif;
+            list-style-type: none;
+
+            li {
+                margin: 10px;
+            }
+        }
+
+        .container_nav {
+            margin-left: 20px;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: end;
+            margin-right: 10px;
+        }
+    }
+}
+ // our-team, work-with-us
+.nav2 {
+    grid-area: nav2;
+    background-color: black;
+}
+
+
