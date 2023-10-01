@@ -1,29 +1,83 @@
 //index, contact-us//
 
-h1 {
-    background-color: #9D2096;
-    color: white;
-    padding: 20px;
-    font-size: 60px;
-} 
+header {
+    div {
+        div {
+            background-color: #9D2096;
+            margin-top: -16px;
+
+            h1 {
+                background-color: #9D2096;
+                color: white;
+                padding: 20px;
+                font-size: 60px;
+            }
+
+            h2 {
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                position: relative;
+                top: -10px;
+            }
+        }
+    }
+}
 
 //about-us//
 
-div header {
-    text-align: left;
-    font-size: xx-large;
-    background: #9D2096;
-    color: white;
-    box-sizing: border-box;
-    height: 100%;
-    padding: 30px;
+div {
+    header {
+        text-align: left;
+        font-size: xx-large;
+        background: #9D2096;
+        color: white;
+        box-sizing: border-box;
+        height: 100%;
+        padding: 30px;
+    }
 }
 
-//our-team work-with-us//
+body {
+
+    div {
+        header {
+            display: flex;
+            flex-direction: row-reverse;
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                h1 {
+                    background-color: #9D2096;
+                    color: white;
+                    text-align: left;
+                }
+
+                h2 {
+                    margin: 15px;
+                    font-weight: lighter;
+                    font-size: 30px;
+                    color: white;
+                    font-weight: lighter;
+                    position: relative;
+                    top: -10px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+//our-team//
+
 
 body {
-    header {
-        .ourTeamHeader {
+    .header2 {
+        div {
             display: flex;
             text-align: left;
             font-size: xx-large;
@@ -36,12 +90,54 @@ body {
                 margin-top: 40px;
                 display: flex;
                 flex-direction: column;
+
+                h1 {
+                    background-color: #9D2096;
+                    color: white;
+                    font-size: 60px;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                }
+
+                .team_subtitle {
+                    
+                }
+
             }
         }
 
     }
 }
 
+//work-with-us//
 
+body {
+    .header2 {
+        grid-area: header2;
+        background-color: #9D2096;
+        color: white;
+        text-align: left;
+        font-size: 10%;
+        height: 150%;
+        width: 100%;
 
+        div {
+            h1 {
+                background-color: #9D2096;
+                color: white;
+                font-size: 60px;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
 
+            .sub_work {
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                position: absolute;
+                top: 128px;
+                left: 300px;
+            }
+        }
+    }
+}

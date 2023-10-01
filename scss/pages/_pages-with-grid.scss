@@ -8,24 +8,6 @@
     ;
     grid-template-columns: 20% 1fr;
     grid-template-rows: 40px 100px 1fr 150px;
-
-    .header2 {
-        grid-area: header2;
-        background-color: #9D2096;
-        color: white;
-        text-align: left;
-        font-size: 10%;
-        height: 150%;
-        width: 100%;
-
-        div {
-            h2 {
-                position: absolute;
-                top: 129px;
-                left: 282px;
-            }
-        }
-    }
 }
 
 
@@ -56,12 +38,6 @@
 
 .form_to_fill {
     width: 100%;
-}
-
-.sub_work {
-    position: absolute;
-    top: 129px;
-    left: 282px;
 }
 
 //our-team//

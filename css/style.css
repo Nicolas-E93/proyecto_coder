@@ -132,11 +132,22 @@ body nav .container_nav {
   background-color: black;
 }
 
-h1 {
+header div div {
+  background-color: #9D2096;
+  margin-top: -16px;
+}
+header div div h1 {
   background-color: #9D2096;
   color: white;
   padding: 20px;
   font-size: 60px;
+}
+header div div h2 {
+  font-size: 30px;
+  color: white;
+  font-weight: lighter;
+  position: relative;
+  top: -10px;
 }
 
 div header {
@@ -149,7 +160,30 @@ div header {
   padding: 30px;
 }
 
-body header .ourTeamHeader {
+body div header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+body div header div {
+  display: flex;
+  flex-direction: column;
+}
+body div header div h1 {
+  background-color: #9D2096;
+  color: white;
+  text-align: left;
+}
+body div header div h2 {
+  margin: 15px;
+  font-weight: lighter;
+  font-size: 30px;
+  color: white;
+  font-weight: lighter;
+  position: relative;
+  top: -10px;
+}
+
+body .header2 div {
   display: flex;
   text-align: left;
   font-size: xx-large;
@@ -157,11 +191,42 @@ body header .ourTeamHeader {
   color: white;
   box-sizing: border-box;
 }
-body header .ourTeamHeader .ourTeamHeader-titles {
+body .header2 div .ourTeamHeader-titles {
   margin-left: 30px;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
+}
+body .header2 div .ourTeamHeader-titles h1 {
+  background-color: #9D2096;
+  color: white;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+body .header2 {
+  grid-area: header2;
+  background-color: #9D2096;
+  color: white;
+  text-align: left;
+  font-size: 10%;
+  height: 150%;
+  width: 100%;
+}
+body .header2 div h1 {
+  background-color: #9D2096;
+  color: white;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+body .header2 div .sub_work {
+  font-size: 30px;
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  top: 128px;
+  left: 300px;
 }
 
 body footer {
@@ -237,20 +302,6 @@ body main section form .select_rating {
   grid-template-columns: 20% 1fr;
   grid-template-rows: 40px 100px 1fr 150px;
 }
-.div_container2 .header2 {
-  grid-area: header2;
-  background-color: #9D2096;
-  color: white;
-  text-align: left;
-  font-size: 10%;
-  height: 150%;
-  width: 100%;
-}
-.div_container2 .header2 div h2 {
-  position: absolute;
-  top: 129px;
-  left: 282px;
-}
 
 .nav2 {
   grid-area: nav2;
@@ -278,12 +329,6 @@ body main section form .select_rating {
 
 .form_to_fill {
   width: 100%;
-}
-
-.sub_work {
-  position: absolute;
-  top: 129px;
-  left: 282px;
 }
 
 body section {
