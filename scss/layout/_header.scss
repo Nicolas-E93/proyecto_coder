@@ -3,11 +3,11 @@
 header {
     div {
         div {
-            background-color: #9D2096;
+            background-color: $main-color;
             margin-top: -16px;
 
             h1 {
-                background-color: #9D2096;
+                background-color: $main-color;
                 color: white;
                 padding: 20px;
                 font-size: 60px;
@@ -30,7 +30,7 @@ div {
     header {
         text-align: left;
         font-size: xx-large;
-        background: #9D2096;
+        background: $main-color;
         color: white;
         box-sizing: border-box;
         height: 100%;
@@ -50,7 +50,7 @@ body {
                 flex-direction: column;
 
                 h1 {
-                    background-color: #9D2096;
+                    background-color: $main-color;
                     color: white;
                     text-align: left;
                 }
@@ -72,66 +72,4 @@ body {
 
 
 
-//our-team//
 
-
-body {
-    .header2 {
-        div {
-            display: flex;
-            text-align: left;
-            font-size: xx-large;
-            background: #9D2096;
-            color: white;
-            box-sizing: border-box;
-
-            .ourTeamHeader-titles {
-                margin-left: 30px;
-                margin-top: 40px;
-                display: flex;
-                flex-direction: column;
-
-                h1 {
-                    background-color: #9D2096;
-                    color: white;
-                    font-size: 60px;
-                    margin-left: 20px;
-                    margin-top: 20px;
-                }
-            }
-        }
-    }
-}
-
-//work-with-us//
-
-body {
-    .header2 {
-        grid-area: header2;
-        background-color: #9D2096;
-        color: white;
-        text-align: left;
-        font-size: 10%;
-        height: 150%;
-        width: 100%;
-
-        div {
-            h1 {
-                background-color: #9D2096;
-                color: white;
-                font-size: 60px;
-                margin-left: 20px;
-                margin-top: 20px;
-            }
-
-            .sub_work {
-                font-size: 30px;
-                color: white;
-                font-weight: lighter;
-                position: absolute;
-                top: 128px;
-                left: 300px;
-            }
-        }
-    }
-}

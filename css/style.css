@@ -127,11 +127,6 @@ body nav .container_nav {
   margin-right: 10px;
 }
 
-.nav2 {
-  grid-area: nav2;
-  background-color: black;
-}
-
 header div div {
   background-color: #9D2096;
   margin-top: -16px;
@@ -181,52 +176,6 @@ body div header div h2 {
   font-weight: lighter;
   position: relative;
   top: -10px;
-}
-
-body .header2 div {
-  display: flex;
-  text-align: left;
-  font-size: xx-large;
-  background: #9D2096;
-  color: white;
-  box-sizing: border-box;
-}
-body .header2 div .ourTeamHeader-titles {
-  margin-left: 30px;
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-}
-body .header2 div .ourTeamHeader-titles h1 {
-  background-color: #9D2096;
-  color: white;
-  font-size: 60px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-body .header2 {
-  grid-area: header2;
-  background-color: #9D2096;
-  color: white;
-  text-align: left;
-  font-size: 10%;
-  height: 150%;
-  width: 100%;
-}
-body .header2 div h1 {
-  background-color: #9D2096;
-  color: white;
-  font-size: 60px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-body .header2 div .sub_work {
-  font-size: 30px;
-  color: white;
-  font-weight: lighter;
-  position: absolute;
-  top: 128px;
-  left: 300px;
 }
 
 body footer {
@@ -308,11 +257,6 @@ body main section form .select_rating {
   background-color: black;
 }
 
-.section2 {
-  grid-area: section2;
-  margin-top: 50px;
-}
-
 .aside2 {
   grid-area: aside2;
   background-color: #FFD859;
@@ -329,6 +273,28 @@ body main section form .select_rating {
 
 .form_to_fill {
   width: 100%;
+}
+
+body .header2 div {
+  display: flex;
+  text-align: left;
+  font-size: xx-large;
+  background: #9D2096;
+  color: white;
+  box-sizing: border-box;
+}
+body .header2 div .ourTeamHeader-titles {
+  margin-left: 30px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+body .header2 div .ourTeamHeader-titles h1 {
+  background-color: #9D2096;
+  color: white;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 body section {
@@ -355,6 +321,31 @@ body section .grid_container_members div {
   border-radius: 40px;
 }
 
+body .header2 {
+  grid-area: header2;
+  background-color: #9D2096;
+  color: white;
+  text-align: left;
+  font-size: 10%;
+  height: 150%;
+  width: 100%;
+}
+body .header2 div h1 {
+  background-color: #9D2096;
+  color: white;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+body .header2 div .sub_work {
+  font-size: 30px;
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  top: 128px;
+  left: 300px;
+}
+
 body section h3 {
   font-size: x-large;
   margin-bottom: 68px;
@@ -362,6 +353,21 @@ body section h3 {
 }
 body section h3 div form {
   width: 100%;
+}
+
+aside {
+  grid-area: aside2;
+  background-color: #FFD859;
+}
+aside .box_side {
+  padding: 30px;
+  text-align: justify;
+}
+
+aside div h3 {
+  font-weight: lighter;
+  font-weight: 600;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,5 @@
+//grid-layout//
+
 .div_container2 {
     display: grid;
     grid-template-areas:
@@ -10,17 +12,11 @@
     grid-template-rows: 40px 100px 1fr 150px;
 }
 
-
-
 .nav2 {
     grid-area: nav2;
     background-color: black;
 }
 
-.section2 {
-    grid-area: section2;
-    margin-top: 50px;
-}
 
 .aside2 {
     grid-area: aside2;
@@ -40,7 +36,39 @@
     width: 100%;
 }
 
-//our-team//
+//our-team-header//
+
+
+body {
+    .header2 {
+        div {
+            display: flex;
+            text-align: left;
+            font-size: xx-large;
+            background: #9D2096;
+            color: white;
+            box-sizing: border-box;
+
+            .ourTeamHeader-titles {
+                margin-left: 30px;
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+
+                h1 {
+                    background-color: #9D2096;
+                    color: white;
+                    font-size: 60px;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+//our-team-section//
 
 body {
     section {
@@ -71,7 +99,41 @@ body {
     }
 }
 
-//work-with-us//
+//work-with-us-header//
+
+body {
+    .header2 {
+        grid-area: header2;
+        background-color: #9D2096;
+        color: white;
+        text-align: left;
+        font-size: 10%;
+        height: 150%;
+        width: 100%;
+
+        div {
+            h1 {
+                background-color: #9D2096;
+                color: white;
+                font-size: 60px;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+
+            .sub_work {
+                font-size: 30px;
+                color: white;
+                font-weight: lighter;
+                position: absolute;
+                top: 128px;
+                left: 300px;
+            }
+        }
+    }
+}
+
+
+//work-with-us-section//
 
 body {
     section {
@@ -85,6 +147,30 @@ body {
                     width: 100%;
                 }
             }
+        }
+    }
+}
+
+//our-team-aside//
+
+aside {
+    grid-area: aside2;
+    background-color: #FFD859;
+
+    .box_side {
+        padding: 30px;
+        text-align: justify;
+    }
+}
+
+//work-with-us-aside//
+
+aside {
+    div {
+        h3 {
+            font-weight: lighter;
+            font-weight: 600;
+            margin: 20px;
         }
     }
 }
