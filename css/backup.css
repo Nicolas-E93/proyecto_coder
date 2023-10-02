@@ -506,10 +506,6 @@ button:hover {
         flex-direction: column;
     }
 
-    .img_contact {
-        display: none;
-    }
-
     .about-img {
         display: none;
     }

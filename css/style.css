@@ -64,10 +64,11 @@ body header div img {
   margin-left: 200px;
 }
 
-body main section form img {
+body main section form .img_contact {
   position: absolute;
   width: 300px;
   left: 136px;
+  display: none;
 }
 
 section h3 div form {
@@ -170,7 +171,26 @@ body div header div h1 {
 }
 body div header div h2 {
   margin: 15px;
+  font-size: 30px;
+  color: white;
   font-weight: lighter;
+  position: relative;
+  top: -10px;
+}
+
+body .contact_header {
+  background-color: #9D2096;
+  color: white;
+  height: 100%;
+  text-align: left;
+}
+body .contact_header .register_title {
+  font-size: 44px;
+  margin-left: 30px;
+}
+body .contact_header .sub_register {
+  margin: 15px;
+  margin-left: 30px;
   font-size: 30px;
   color: white;
   font-weight: lighter;
@@ -211,19 +231,39 @@ h5 ul {
   list-style-type: none;
 }
 
-body main section div {
+body main section .home {
   text-align: justify;
   width: 80%;
   padding: 20px;
   margin-left: 50px;
 }
-
+body main section .home h3 {
+  font-weight: lighter;
+  font-weight: 600;
+  margin: 20px;
+}
+body main section .home p {
+  color: #000000;
+}
+body main section .popular {
+  font-weight: lighter;
+  margin: 10px;
+}
 body main section .container_videos {
   margin-bottom: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex: wrap;
+}
+body main section .container_videos .opening_video h3 {
+  font-weight: lighter;
+  font-weight: 600;
+  margin: 20px;
+}
+body main section .container_videos .opening_video .video {
+  height: 250px;
+  width: 350px;
 }
 
 body main section p {

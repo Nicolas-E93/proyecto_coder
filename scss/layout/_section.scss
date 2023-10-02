@@ -3,29 +3,59 @@
 body {
     main {
         section {
-            div {
+            .home {
                 text-align: justify;
                 width: 80%;
                 padding: 20px;
                 margin-left: 50px;
+
+                h3 {
+                    font-weight: lighter;
+                    font-weight: 600;
+                    margin: 20px;
+                }
+
+                p {
+                    color: #000000;
+                }
             }
         }
-    }
-}
 
-body {
-    main {
         section {
+
+            .popular {
+                font-weight: lighter;
+                margin:10px
+            }
+
             .container_videos {
                 margin-bottom: 100px;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-evenly;
                 flex: wrap;
+
+                .opening_video {
+
+                    h3 {
+                        font-weight: lighter;
+                        font-weight: 600;
+                        margin: 20px;
+                    }
+
+                    .video {
+                        height: 250px;
+                        width: 350px;
+                    }
+
+                }
             }
+
+
         }
     }
 }
+
 
 //about-us//
 
@@ -56,7 +86,7 @@ body {
                     margin-top: 20px;
                     position: relative;
                     top: -30px;
-                    left:100px;
+                    left: 100px;
                     text-align: center;
                 }
             }

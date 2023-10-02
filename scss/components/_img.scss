@@ -26,18 +26,22 @@ body {
         }
     }
 }
+//contact-us//
 
 body {
     main {
         section {
             form {
-                img {
+                .img_contact {
                     position: absolute;
                     width: 300px;
                     left: 136px;
+                    display: none;
                 }
             }
         }
     }
 }
+
+
 

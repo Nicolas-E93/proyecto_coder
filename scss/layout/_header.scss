@@ -1,4 +1,4 @@
-//index, contact-us//
+//index//
 
 header {
     div {
@@ -56,8 +56,7 @@ body {
                 }
 
                 h2 {
-                    margin: 15px;
-                    font-weight: lighter;
+                    margin: 15px;                   
                     font-size: 30px;
                     color: white;
                     font-weight: lighter;
@@ -69,7 +68,27 @@ body {
     }
 }
 
+//contact-us//
+body {
+    .contact_header {
+        background-color:$main-color;
+        color: white;
+        height: 100%;
+        text-align: left;
 
+        .register_title {
+            font-size: 44px;
+            margin-left:30px
+        }
 
-
-
+        .sub_register {
+            margin: 15px;  
+            margin-left:30px;                 
+            font-size: 30px;
+            color: white;
+            font-weight: lighter;
+            position: relative;
+            top: -10px;
+        }
+    }
+}
