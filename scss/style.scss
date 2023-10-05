@@ -1,23 +1,27 @@
 
 //variable//
+
 @import "./variables/variables.scss";
 
 //base//
+
 @import "./base/_reset.scss";
 
 //components//
+
 @import "./components/_buttons.scss";
 @import "./components/_dropdown.scss";
 @import "./components/_img.scss";
 @import "./components/_forms.scss";
 
 //layout//
-@import "./layout/_nav.scss";
 
-//layout//
+@import "./layout/_nav.scss";
 @import "./layout/_header.scss";
 @import "./layout/_footer.scss";
 @import "./layout/_section.scss";
+@import "./layout/_media_queries.scss";
 
 //pages//
-@import "./pages/_pages-with-grid.scss"
+
+@import "./pages/_pages-with-grid.scss";
