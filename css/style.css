@@ -287,73 +287,99 @@ body main section form .select_rating {
 
 /* tablet */
 @media screen and (max-width: 768px) {
-  main section .container_videos {
+  body .img_chess {
+    display: none;
+  }
+  body main section .home p {
+    width: 100%;
+    margin: 0px;
+  }
+  body main section .container_videos {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  main section .container_videos .opening_video .video {
+  body main section .container_videos .opening_video .video {
     height: 300px;
     width: 400px;
   }
-  .header2 {
+  body div header .about-img {
+    display: none;
+  }
+  body header {
     height: 200%;
   }
-  .img_contact {
-    position: absolute;
-    width: 207px;
-    left: 49px;
-  }
-  .about-img {
+  body header div .img-team {
     display: none;
   }
-  .img-team {
-    display: none;
+  body aside {
+    padding: 0%;
   }
-  .box_side {
+  body aside .box_side {
     padding: 10px;
   }
 }
+body main section form .select_rating {
+  color: black;
+  font-size: 23px;
+  margin-top: 20px;
+  position: relative;
+  top: -30px;
+  left: 6%;
+  text-align: center;
+}
+
 /* Mobile */
 @media screen and (max-width: 425px) {
-  .video {
+  body .img_chess {
+    display: none;
+  }
+  body main section .home p {
+    width: 100%;
+    margin: 0px;
+    padding: none;
+  }
+  body main section .container_videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main section .container_videos .opening_video .video {
     height: 250px;
     width: 350px;
-  }
-  .img_chess {
-    display: none;
   }
   .container_footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
-  .grid_container_members {
-    display: flex;
-    flex-direction: column;
+  body div header .about-img {
+    display: none;
   }
   .div_container2 {
     grid-template-areas: "nav2" "header2" "aside2" "section2" "footer2";
     grid-template-columns: auto;
     grid-template-rows: 5% 11%;
   }
-  .section2 {
+  .div_container2 header div .img-team {
+    display: none;
+  }
+  .div_container2 section {
     margin: 0;
   }
-  .sub_work {
+  .div_container2 section section .grid_container_members {
+    display: flex;
+    flex-direction: column;
+  }
+  body header div .sub_work {
     position: absolute;
     top: 200px;
     left: 40px;
     font-size: 30px;
   }
-  .footer2 {
+  body .footer2 {
     display: flex;
     flex-direction: column;
-  }
-  .about-img {
-    display: none;
-  }
-  .img-team {
-    display: none;
   }
 }
 .div_container2 {
@@ -438,7 +464,7 @@ body .header2 {
   color: white;
   text-align: left;
   font-size: 10%;
-  height: 150%;
+  height: 170%;
   width: 100%;
 }
 body .header2 div h1 {
@@ -466,11 +492,11 @@ body section h3 div form {
   width: 100%;
 }
 
-aside {
+body aside {
   grid-area: aside2;
   background-color: #FFD859;
 }
-aside .box_side {
+body aside .box_side {
   padding: 30px;
   text-align: justify;
 }

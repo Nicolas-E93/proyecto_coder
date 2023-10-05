@@ -108,7 +108,7 @@ body {
         color: white;
         text-align: left;
         font-size: 10%;
-        height: 150%;
+        height: 170%;
         width: 100%;
 
         div {
@@ -153,14 +153,20 @@ body {
 
 //our-team-aside//
 
-aside {
-    grid-area: aside2;
-    background-color: #FFD859;
+body {
 
-    .box_side {
-        padding: 30px;
-        text-align: justify;
+
+    aside {
+        grid-area: aside2;
+        background-color: #FFD859;
+
+        .box_side {
+            padding: 30px;
+            text-align: justify;
+        }
+
     }
+
 }
 
 //work-with-us-aside//
