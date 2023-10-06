@@ -1,6 +1,6 @@
 /* tablet */
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
 
     //index//
 
@@ -176,8 +176,8 @@ body {
         grid-template-columns: auto;
         grid-template-rows: 5% 11%;
 
-        header {
-            div {
+        .header2 {
+            .ourTeamHeader {
                 .img-team {
                     display: none;
                 }

@@ -231,42 +231,42 @@ h5 ul {
   list-style-type: none;
 }
 
-body main section .home {
+.body main section .home {
   text-align: justify;
   width: 80%;
   padding: 20px;
   margin-left: 50px;
 }
-body main section .home h3 {
+.body main section .home h3 {
   font-weight: lighter;
   font-weight: 600;
   margin: 20px;
 }
-body main section .home p {
+.body main section .home p {
   color: #000000;
 }
-body main section .popular {
+.body main section .popular {
   font-weight: lighter;
   margin: 10px;
 }
-body main section .container_videos {
+.body main section .container_videos {
   margin-bottom: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex: wrap;
 }
-body main section .container_videos .opening_video h3 {
+.body main section .container_videos .opening_video h3 {
   font-weight: lighter;
   font-weight: 600;
   margin: 20px;
 }
-body main section .container_videos .opening_video .video {
+.body main section .container_videos .opening_video .video {
   height: 100%;
   width: 100%;
 }
 
-body main section p {
+.body main section p {
   width: 80%;
   height: auto;
   color: black;
@@ -275,7 +275,7 @@ body main section p {
   margin: 30px;
 }
 
-body main section form .select_rating {
+.body main section form .select_rating {
   color: black;
   font-size: 23px;
   margin-top: 20px;
@@ -286,7 +286,7 @@ body main section form .select_rating {
 }
 
 /* tablet */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   body .img_chess {
     display: none;
   }
@@ -361,7 +361,7 @@ body main section form .select_rating {
     grid-template-columns: auto;
     grid-template-rows: 5% 11%;
   }
-  .div_container2 header div .img-team {
+  .div_container2 .header2 .ourTeamHeader .img-team {
     display: none;
   }
   .div_container2 section {
