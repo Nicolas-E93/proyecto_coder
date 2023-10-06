@@ -231,42 +231,42 @@ h5 ul {
   list-style-type: none;
 }
 
-.body main section .home {
+body main section .home {
   text-align: justify;
   width: 80%;
   padding: 20px;
-  margin-left: 50px;
+  margin-left: 100;
 }
-.body main section .home h3 {
+body main section .home h3 {
   font-weight: lighter;
   font-weight: 600;
   margin: 20px;
 }
-.body main section .home p {
+body main section .home p {
   color: #000000;
 }
-.body main section .popular {
+body main section .popular {
   font-weight: lighter;
   margin: 10px;
 }
-.body main section .container_videos {
+body main section .container_videos {
   margin-bottom: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex: wrap;
 }
-.body main section .container_videos .opening_video h3 {
+body main section .container_videos .opening_video h3 {
   font-weight: lighter;
   font-weight: 600;
   margin: 20px;
 }
-.body main section .container_videos .opening_video .video {
+body main section .container_videos .opening_video .video {
   height: 100%;
   width: 100%;
 }
 
-.body main section p {
+body main section p {
   width: 80%;
   height: auto;
   color: black;
@@ -275,7 +275,7 @@ h5 ul {
   margin: 30px;
 }
 
-.body main section form .select_rating {
+body main section form .select_rating {
   color: black;
   font-size: 23px;
   margin-top: 20px;
@@ -370,6 +370,14 @@ body main section form .select_rating {
   .div_container2 section section .grid_container_members {
     display: flex;
     flex-direction: column;
+  }
+  .div_container2 section section .team_member_box {
+    text-align: justify;
+    background-color: #FFD859;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 40px;
   }
   body header div .sub_work {
     position: absolute;
