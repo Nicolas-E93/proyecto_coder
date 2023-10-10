@@ -76,6 +76,127 @@ section h3 div form {
   margin-top: 50px;
 }
 
+.div_container2 {
+  display: grid;
+  grid-template-areas: "nav2 nav2 nav2" "aside2 header2 header2" "aside2 section2 section2" "footer2 footer2 footer2";
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 40px 100px 1fr 150px;
+}
+
+.nav2 {
+  grid-area: nav2;
+  background-color: black;
+}
+
+.aside2 {
+  grid-area: aside2;
+  background-color: #FFD859;
+}
+
+.footer2 {
+  grid-area: footer2;
+  background-color: #9D2096;
+  display: flex;
+  justify-content: center;
+  margin: -0.01%;
+  padding: 10px;
+}
+
+.form_to_fill {
+  width: 100%;
+}
+
+body .header2 div {
+  font-size: xx-large;
+  background: #9D2096;
+  color: white;
+  box-sizing: border-box;
+}
+body .header2 div .ourTeamHeader-titles {
+  margin-left: 30px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+body .header2 div .ourTeamHeader-titles h1 {
+  background-color: #9D2096;
+  color: white;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+body section {
+  grid-area: section2;
+  margin-top: 50px;
+}
+body section {
+  margin: 30px;
+}
+body section .grid_container_members {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px 20px;
+  margin-bottom: 30px;
+}
+body section .grid_container_members div {
+  text-align: justify;
+  background-color: #FFD859;
+  color: black;
+  padding: 20px;
+  border: 1px;
+  border-radius: 40px;
+}
+
+body .header2 {
+  grid-area: header2;
+  background-color: #9D2096;
+  color: white;
+  text-align: left;
+  font-size: 10%;
+  height: 170%;
+  width: 100%;
+}
+body .header2 div h1 {
+  background-color: #9D2096;
+  color: white;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+body .header2 div .sub_work {
+  font-size: 30px;
+  color: white;
+  font-weight: lighter;
+  margin-left: 5%;
+}
+
+body section h3 {
+  font-size: x-large;
+  margin-bottom: 68px;
+  margin-top: 80px;
+}
+body section h3 div form {
+  width: 100%;
+}
+
+body aside {
+  grid-area: aside2;
+  background-color: #FFD859;
+}
+body aside .box_side {
+  padding: 30px;
+  text-align: justify;
+}
+
+aside div h3 {
+  font-weight: lighter;
+  font-weight: 600;
+  margin: 20px;
+}
+
 header nav {
   background-color: #000000;
   width: 100%;
@@ -380,139 +501,14 @@ body main section form .select_rating {
     border-radius: 40px;
   }
   body header div .sub_work {
-    position: absolute;
-    top: 200px;
-    left: 40px;
     font-size: 30px;
+    color: white;
+    font-weight: lighter;
   }
   body .footer2 {
     display: flex;
     flex-direction: column;
   }
-}
-.div_container2 {
-  display: grid;
-  grid-template-areas: "nav2 nav2 nav2" "aside2 header2 header2" "aside2 section2 section2" "footer2 footer2 footer2";
-  grid-template-columns: 20% 1fr;
-  grid-template-rows: 40px 100px 1fr 150px;
-}
-
-.nav2 {
-  grid-area: nav2;
-  background-color: black;
-}
-
-.aside2 {
-  grid-area: aside2;
-  background-color: #FFD859;
-}
-
-.footer2 {
-  grid-area: footer2;
-  background-color: #9D2096;
-  display: flex;
-  justify-content: center;
-  margin: -0.01%;
-  padding: 10px;
-}
-
-.form_to_fill {
-  width: 100%;
-}
-
-body .header2 div {
-  display: flex;
-  text-align: left;
-  font-size: xx-large;
-  background: #9D2096;
-  color: white;
-  box-sizing: border-box;
-}
-body .header2 div .ourTeamHeader-titles {
-  margin-left: 30px;
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-}
-body .header2 div .ourTeamHeader-titles h1 {
-  background-color: #9D2096;
-  color: white;
-  font-size: 60px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-body section {
-  grid-area: section2;
-  margin-top: 50px;
-}
-body section {
-  margin: 30px;
-}
-body section .grid_container_members {
-  margin-top: 90px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 20px 20px;
-  margin-bottom: 30px;
-}
-body section .grid_container_members div {
-  text-align: justify;
-  background-color: #FFD859;
-  color: black;
-  padding: 20px;
-  border: 1px;
-  border-radius: 40px;
-}
-
-body .header2 {
-  grid-area: header2;
-  background-color: #9D2096;
-  color: white;
-  text-align: left;
-  font-size: 10%;
-  height: 170%;
-  width: 100%;
-}
-body .header2 div h1 {
-  background-color: #9D2096;
-  color: white;
-  font-size: 60px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-body .header2 div .sub_work {
-  font-size: 30px;
-  color: white;
-  font-weight: lighter;
-  position: absolute;
-  top: 128px;
-  left: 300px;
-}
-
-body section h3 {
-  font-size: x-large;
-  margin-bottom: 68px;
-  margin-top: 80px;
-}
-body section h3 div form {
-  width: 100%;
-}
-
-body aside {
-  grid-area: aside2;
-  background-color: #FFD859;
-}
-body aside .box_side {
-  padding: 30px;
-  text-align: justify;
-}
-
-aside div h3 {
-  font-weight: lighter;
-  font-weight: 600;
-  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

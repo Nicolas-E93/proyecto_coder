@@ -14,6 +14,11 @@
 @import "./components/_img.scss";
 @import "./components/_forms.scss";
 
+
+//pages//
+
+@import "./pages/_pages-with-grid.scss";
+
 //layout//
 
 @import "./layout/_nav.scss";
@@ -21,7 +26,3 @@
 @import "./layout/_footer.scss";
 @import "./layout/_section.scss";
 @import "./layout/_media_queries.scss";
-
-//pages//
-
-@import "./pages/_pages-with-grid.scss";
