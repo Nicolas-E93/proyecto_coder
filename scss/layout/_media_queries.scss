@@ -198,8 +198,9 @@ body {
                     background-color: #FFD859;
                     color: black;
                     padding: 20px;
-                    border: 1px solid black;
+                    border: 1px  black;
                     border-radius: 40px;
+                    margin: 10px;
                 }
 
             }
@@ -210,17 +211,7 @@ body {
     //work-with-us //
 
     body {
-        header {
-            div {
-                .sub_work {
-                    font-size: 30px;
-                    color: white;
-                    font-weight: lighter;
-                }
-
-            }
-        }
-
+        
         .footer2 {
             display: flex;
             flex-direction: column;

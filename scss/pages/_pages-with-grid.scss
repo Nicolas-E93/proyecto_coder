@@ -41,7 +41,9 @@
 
 body {
     .header2 {
-        div {
+        .ourTeamHeader {
+            display: flex;
+            text-align: left;
             font-size: xx-large;
             background: #9D2096;
             color: white;
@@ -78,7 +80,7 @@ body {
         margin: 30px;
 
         .grid_container_members {
-            margin-top: 90px;
+            margin-top: 70px;
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
@@ -118,11 +120,14 @@ body {
                 margin-top: 20px;
             }
 
-            .sub_work {
+            h2 {
+                margin: 15px;
+                margin-left: 30px;
                 font-size: 30px;
                 color: white;
                 font-weight: lighter;
-                margin-left:5%
+                position: relative;
+                top: -10px;
             }
         }
     }

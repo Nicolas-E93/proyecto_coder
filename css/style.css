@@ -106,19 +106,21 @@ section h3 div form {
   width: 100%;
 }
 
-body .header2 div {
+body .header2 .ourTeamHeader {
+  display: flex;
+  text-align: left;
   font-size: xx-large;
   background: #9D2096;
   color: white;
   box-sizing: border-box;
 }
-body .header2 div .ourTeamHeader-titles {
+body .header2 .ourTeamHeader .ourTeamHeader-titles {
   margin-left: 30px;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
 }
-body .header2 div .ourTeamHeader-titles h1 {
+body .header2 .ourTeamHeader .ourTeamHeader-titles h1 {
   background-color: #9D2096;
   color: white;
   font-size: 60px;
@@ -134,7 +136,7 @@ body section {
   margin: 30px;
 }
 body section .grid_container_members {
-  margin-top: 90px;
+  margin-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -166,11 +168,14 @@ body .header2 div h1 {
   margin-left: 20px;
   margin-top: 20px;
 }
-body .header2 div .sub_work {
+body .header2 div h2 {
+  margin: 15px;
+  margin-left: 30px;
   font-size: 30px;
   color: white;
   font-weight: lighter;
-  margin-left: 5%;
+  position: relative;
+  top: -10px;
 }
 
 body section h3 {
@@ -497,13 +502,9 @@ body main section form .select_rating {
     background-color: #FFD859;
     color: black;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px black;
     border-radius: 40px;
-  }
-  body header div .sub_work {
-    font-size: 30px;
-    color: white;
-    font-weight: lighter;
+    margin: 10px;
   }
   body .footer2 {
     display: flex;
