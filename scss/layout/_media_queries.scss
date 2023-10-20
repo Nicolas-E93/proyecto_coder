@@ -1,6 +1,6 @@
 /* tablet */
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (max-width:868px) and (max-width:1023px) {
 
     //index//
 
@@ -26,6 +26,7 @@
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    margin-bottom: 100px;
 
                     .opening_video {
 
@@ -101,7 +102,25 @@ body {
 
 /* Mobile */
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:850px) {
+    body {
+        section {
+
+            margin-left: 10px;
+            margin-right: 10px;
+
+            .grid_container_members {
+                div {
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width:700px) {
 
     //index//
 
@@ -201,10 +220,16 @@ body {
                     border: 1px  black;
                     border-radius: 40px;
                     margin: 10px;
+                    width: 60%;
+                    margin-left: 17%;
                 }
 
             }
 
+        }
+
+        .p_our_team {
+            margin: 20px;
         }
     }
 

@@ -6,22 +6,19 @@ main {
     }
 }
 
-div {
-    header {
-        img {
-            width: 15%;
-            margin-left: 30px;
+header {
+    .ourTeamHeader {
+        .img-team {
+            width: 30%;
         }
     }
 }
 
 body {
     header {
-        div {
+       nav {
             img {
-                width: 30%;
-                position: relative;
-                margin-left: 200px;
+             width: 30%;
             }
         }
     }
