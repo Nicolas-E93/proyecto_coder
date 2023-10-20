@@ -69,6 +69,10 @@ body main section form .img_contact {
   display: none;
 }
 
+.about-img {
+  width: 170px;
+}
+
 section h3 div form {
   width: 100%;
   margin-top: 50px;
@@ -98,6 +102,7 @@ section h3 div form {
   justify-content: center;
   margin: -0.01%;
   padding: 10px;
+  height: 140%;
 }
 
 .form_to_fill {
@@ -351,6 +356,9 @@ body footer h5 {
 }
 body footer ul {
   list-style-type: none;
+}
+body footer div img {
+  width: 10%;
 }
 
 h5 {
